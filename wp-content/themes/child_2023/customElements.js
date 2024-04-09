@@ -7,14 +7,14 @@ class CopyrightYear extends HTMLElement{
 customElements.define("x-year", CopyrightYear);
 
 
-//Class JagWasHere extends HTMLElement{
-//	connectCallback(){
-//		this.innerHTML = "Jag was here";
+class RunTrailSpot extends HTMLElement{
+ connectedCallback(){
+		this.innerHTML = "<strong>Dikes Trail</strong>,";
 		
-//	}
-// }
+	}
+ }
 
-// customElements.define("x-jag", JagWasHere);
+customElements.define("x-trail", RunTrailSpot);
 
 
 //class TwoSidedMarket extends HTMLElement{
